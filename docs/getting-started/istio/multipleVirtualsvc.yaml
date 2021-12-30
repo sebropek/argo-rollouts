@@ -6,7 +6,7 @@ spec:
   gateways:
   - rollouts-demo-gateway
   hosts:
-  - rollouts-demo-vsvc1.local
+  - "*"
   http:
   - name: primary
     route:
@@ -43,7 +43,7 @@ spec:
   gateways:
   - rollouts-demo-gateway
   hosts:
-  - rollouts-demo-vsvc2.local
+  - "*"
   http:
   - name: secondary
     route:
